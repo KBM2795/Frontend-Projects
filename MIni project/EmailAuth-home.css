@@ -1,0 +1,340 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+
+
+/* navbar*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+} 
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: red;
+    margin-left: 0px;
+    
+}
+.logo h3{
+    align-items: center;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.logoimg{
+   align-items: center;
+   justify-content: center;
+    height: 30px;
+}
+
+.nav{
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav a{
+    color: rgb(96, 95, 95);
+    margin-left: 50px;
+}
+
+.nav a:hover{
+     color: red;
+}
+
+.log{
+    
+
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* main part*/
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    margin: 100px; 
+    height: 50vh;
+    width: 80vw;
+} 
+
+.main-info{
+    width: 40vw;
+    margin: 50px;
+}
+
+.main-info h3{
+    font-size: 40px;
+    color: red;
+}
+
+.main-info p{
+   font-size: 25px;
+}
+
+.img-main{
+    margin-left: 50px;
+    width:450px ;
+}
+
+.verify{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.verify:hover{
+    background-color:  rgb(177, 89, 89);
+}
+
+
+/* about */
+
+.features{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 15vh;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.features h3{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: red;
+    margin: 0;
+}
+
+.features p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.about{
+    background-color: white;
+    display: flex;
+    width: 90vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.about-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 74px;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 25px;
+
+}
+ 
+.card img{
+    justify-content: center;
+    margin-left: 50px;
+    width: 10vw;
+    height: 18vh;
+    
+    
+}
+
+.card img:hover{
+   filter: grayscale(0);
+   transform: scale(1.2);
+
+}
+
+.card h3{
+    margin-top: 30px;
+    font-size: 25px;
+    color: red;
+}
+ .card p{
+    font-size: 20px;
+ }
+
+/* fotter  */
+
+.fotter {
+    background-color: black;
+    width: 100vw;
+    height: 6vh;
+   
+}
+
+.fotter p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+   
+}
+
+@media only screen and (max-width: 900px){
+
+/* navbar*/
+.navbar{
+    flex-direction: column;
+}
+
+.nav{
+    margin-left: 0px;
+    margin-right: 10vw;
+}
+
+.log{
+    position: static;
+    width: 85vw;
+    margin: 0%;
+}
+.top{
+    width: max-content;
+    height: max-content;
+    margin: 0%;
+    padding: 0.4%;
+    padding-top: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(main\ img.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-header{
+    margin: 20px;
+    width: 85vw;
+    height: 80vh;
+}
+.main-info{
+    width: 70vw;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.main-info h3{
+    width: 60vw;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.main-info p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.verify {
+    width: 58vw;
+    height: 5vh;
+}
+
+.img-main{
+    display: none;
+}
+
+
+
+/* features */
+
+.features{
+   
+    width: 75vw;
+    height: 25vh;
+    margin: 5vw;
+    margin-bottom: 15vh;
+    margin-top: 7vh;
+    padding: 30px;
+}
+
+.features h3 {
+    
+    font-size: 60px;
+}
+
+.features p{
+    font-size: 22px;
+}
+
+.about{
+    margin: 34px;
+    margin-left: 22px;
+    height: 90vh;
+    overflow-y: scroll;
+    overscroll-behavior-inline: contain;
+}
+
+.about-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 25px;
+}
+
+.card img{
+    justify-content: center;
+    margin-left: 5vw;
+    width: 50vw;
+    height: 18vh;
+}
+
+.card img:hover{
+   filter: grayscale(0);
+   transform: scale(1.2);
+
+}
+
+.card h3{
+    margin-top: 30px;
+    font-size: 30px;
+    color: red;
+}
+ .card p{
+    font-size: 25px;
+ }
+
+
+
+}

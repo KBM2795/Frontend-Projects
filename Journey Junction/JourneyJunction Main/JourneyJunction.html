@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Junction</title>
+    <link rel="stylesheet" href="JourneyJunction.css">
+    <link rel="stylesheet" media="screen and (max-width: 757px)" href="JournyJunctionMobile.css">
+    <link rel="website icon" type="jpg" href="https://www.creativefabrica.com/wp-content/uploads/2019/02/Monogram-JJ-Logo-Design-by-Greenlines-Studios.jpg">
+    <script src="JourneyJunction.js"></script>
+</head>
+
+<body class="Body123">
+    <div class="home" id="home">
+        <nav class="navbar">
+            <h1 class="logo">
+                Journey Junction
+            </h1>
+            <ul class="toggles">
+                <a href="#home" class="navtoggles">Home</a>
+                <a href="#destination1" class="navtoggles">Destination</a>
+                <a href="#gallary1" class="navtoggles">Gallary</a>
+                <a href="#contact-us1" class="navtoggles">Contact Us</a>
+                <a href="" class="navtoggles" id="login1" onclick="login()">Login</a>
+            </ul>
+        </nav>
+
+        <div id="login-page">
+            <div id="before-login">
+                <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FchzmH6%2FbtrJKtD2Weq%2FoSGMP4QEAeIGIKrsOm9nf0%2Fimg.png"
+                    alt="" id="cross-img" onclick="backlogin()">
+                <h3 class="login-h3">Login</h3>
+                <div class="login-email">
+                    <h5 class="login-email-h5">Email</h5>
+                    <input type="email" class="input-email" placeholder="Enter Email" required>
+                </div>
+                <div class="login-password">
+                    <h5 class="login-password-h5">Password</h5>
+                    <input type="password" class="input-password" placeholder="password" required>
+                </div>
+                <div class="forget-password">
+                    <a href="" class="forget-a">Forget Password?</a>
+                </div>
+                <div class="login-button-div">
+                    <button class="login-button" onclick="loginsucess()">Sign in</button>
+                </div>
+
+                <h3 class="new-h3">New To Our Team,<a
+                        href="http://127.0.0.1:5500/Web%20Devlopment%20projects/Frontend%20Projects/Journey%20Junction/JourneyJunction.html#contact-us1">Sign
+                        Up.</a></h3>
+            </div>
+            <div id="after-login">
+                <img src="https://cdn.dribbble.com/users/147386/screenshots/5315437/success-tick-dribbble.gif" alt=""
+                    class="after-login-img">
+                <h2 class="after-login-h2">Login Successully!</h2>
+                <p style="margin-left: 40px;">Thanks for Login.</p>
+                <button id="after-login-button" onclick="backlogin()">Close</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="introduction">
+            <div class="info">
+                <h1 class="hero-title">Unveil the World: Your Ultimate Travel Guide</h1>
+                <p class="hero-info">Welcome to the ultimate travel guide for wanderlust souls! Our website is your
+                    gateway to discovering the world's most captivating destinations, immersing yourself in diverse
+                    cultures, and creating memories that will last a lifetime. Whether you're a seasoned globetrotter or
+                    a first-time adventurer, we're here to inspire, inform, and assist you on your journey to the most
+                    spectacular places on Earth.</p>
+                <h3 class="explore">Explore</h3>
+            </div>
+            <img src="https://png.pngtree.com/png-vector/20220531/ourlarge/pngtree-fun-travel-concept-vector-illustration-isolated-on-a-black-background-png-image_4795940.png"
+                alt="" class="img1">
+
+        </div>
+    </div>
+
+    <div class="destination" id="destination1">
+        <div class="asia">
+            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/Mantanani-Island-Malayasia0310.jpg"
+                alt="" class="img2">
+            <div class="asiainfo">
+                <h2 class="asiah2">In Asia</h2>
+                <p class="asiap">Asia is the biggest continent, not only in terms of population but also in terms of
+                    area.. Asia is a diverse region, with a multi-cultural population living in unity. In no region of
+                    the world, you will find this level of geographical, religious and cultural diversity all blending
+                    into a beautiful amalgam.
+                </p>
+                <h3 class="asiamore"><a href="../JourneyJunction Asia/JourneyJunctionAsia.html" class="asiaa"
+                        ">More</a></h3>
+            </div>
+        </div>
+        <div class="europe">
+            <div class="europeinfo">
+                <h2 class="europeh2">In Europe</h2>
+                <p class="europep">With its layers of history and overlapping of cultures, Europe is a treasure trove of
+                    everything from the medieval and ancient to the baroque and art nouveau. Couple this with Arctic
+                    conditions in the north and beautiful Mediterranean climates in the south, and there’s a whole side
+                    of nature to go with the main dish of culture that can be found in this wonderful continent.</p>
+                <h3 class="europemore"><a href="../JourneyJunction Europe/journeyjunctionEurope.html" class="europea"
+                        >More</a></h3>
+            </div>
+            <img src="https://www.touropia.com/gfx/d/famous-towers-in-the-world/leaning_tower_of_pisa.jpg" alt=""
+                class="img3">
+        </div>
+        <div class="america">
+            <img src="https://wowtravel.me/wp-content/uploads/2020/01/Statue-Of-Liberty-United-States-by-Dimitry-Anikin.jpg"
+                alt="" class="img4">
+            <div class="americainfo">
+                <h2 class="americah2">In America</h2>
+                <p class="americap">As one of the largest and most diverse countries in the world, The United States
+                    boast an amazing amount of tourist destinations ranging from the skyscrapers of New York and
+                    Chicago, the natural wonders of Yellowstone and Alaska to the sunny beaches of California, Florida
+                    and Hawaii.
+                </p>
+                <h3 class="americamore"><a href="../JourneyJunction America/journeyjunction-america.html"
+                        class="americaa" ">More</a></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallary" id="gallary1">
+        <h1 class="gallary-h1">Gallary</h1>
+        <p class="gallary-info">Top 3 Famous Places In World</p>
+        <div class="places">
+            <a href="https://en.wikipedia.org/wiki/Statue_of_Liberty" target="_blank">
+                <div class="liberty-statue">
+                    <img src="https://th.bing.com/th/id/OIP.OMPb_rz_MIs8RPpEl0JNIwHaHy?pid=ImgDet&rs=1"
+                        alt="Statue-Of-Liberty-United-States" class="liberty-statue-img">
+                    <h3 class="liberty-statue-h3">1. The Statue of Liberty, New York, USA</h3>
+                    <p class="liberty-statue-p">The Statue of Liberty (Liberty Enlightening the World; French: La
+                        Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York
+                        Harbor in New York City, in the United States. </p>
+                </div>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Eiffel_Tower" target="_blank">
+                <div class="eiffel-tower">
+                    <img src="https://th.bing.com/th/id/R.59cad81d47fa923e0073c3dc36325b8a?rik=bKCGYHczHkqOGg&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f0%2f0b%2fEiffel_Tower_Paris.JPG&ehk=0bt7ZImoLLOPLpcL3ymfsiKczhMd5puHIp%2bqHkArZ5Y%3d&risl=&pid=ImgRaw&r=0"
+                        alt="eiffel tower" class="eiffel-tower-img">
+                    <h3 class="eiffel-tower-h3">2. Eiffel Tower, Paris, France</h3>
+                    <p class="eiffel-tower-p">If you are in search of the most romantic landmark in the world, then
+                        you’ll have found it in the Eiffel Tower in Paris.</p>
+                </div>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Great_Wall_of_China" target="_blank">
+                <div class="china-wall">
+                    <img src="https://pandotrip.com/wp-content/uploads/2018/03/The-Great-Wall-of-China-during-sunset.jpg"
+                        alt="" class="china-wall-img">
+                    <h3 class="china-wall-h3">3. Great Wall of China, Beijing, China
+                    </h3>
+                    <p class="china-wall-p">When is a wall not a wall? When it’s the Great Wall of China. This is one
+                        wall which is completely inconceivable in all aspects until you actually see it so it just has
+                        to be part of your list of famous landmarks to visit.</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="contact-us" id="contact-us1">
+        <img src="https://media.istockphoto.com/id/1389039329/vector/remarketing-abstract-concept-vector-illustration.jpg?s=612x612&w=0&k=20&c=XuhbnyQIWVhlusqVddYx8iOAUnjiOZrNC2CWlspNAuA="
+            alt="" class="contact-us-img">
+        <div class="contact-info" id="contact">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-p">Sign up hear to get more information anout are service,and more offers will be provided
+                by us.</p>
+            <h3 class="email-name">User Name</h3>
+            <input type="text" id="User-name" class="email1" required placeholder="Full Name">
+            <input type="email" id="email" class="email1" required placeholder="xyz@gmail.com">
+            <input type="password" class="email1" required placeholder="password">
+            <button id="signup" class="email1" onclick="Sign()">Sign Up</button>
+        </div>
+
+        <div class="thanks" id="thanks">
+            <h2 class="thanks-h2" id="output-h2">Thanks For Sign Up <span class="thanks-output"></span></h2>
+            <p class="thanks-p">Welcome to our travel agency! Let’s start planning your dream vacation. <br> We will
+                contact you soon.</p>
+            <button id="back" onclick="back()">Back</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.0sCeUcSAtBNsnRasq6m22gHaDt&pid=ImgDet&rs=1" alt=""
+            class="footer-img">
+        <p class="footer-p">Copyright © 1994-2025 Journy Junction LTD,All Right Reserved</p>
+    </div>
+
+    <script>
+
+
+
+    </script>
+
+</body>
+
+</html>

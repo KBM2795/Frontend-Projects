@@ -1,0 +1,369 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo-a{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(62, 62, 241);
+}
+#aboutId{
+    width: 100vh;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* navigation Bar */
+
+.navbar {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    background-image: none;
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: black;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+}
+
+.navtoggles {
+    margin-left: 25px;
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.navtoggles:hover {
+    border-bottom: 3px solid black;
+    cursor: pointer;
+   
+
+}
+
+/* About Asia */
+
+.america-about {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.america-info {
+    display: flex;
+    flex-direction: column;
+    width: 3oopx;
+
+}
+
+.america-info-h1 {
+    color: black;
+    width: 400px;
+}
+
+.america-info-p {
+    color: black;
+    width: 400px;
+    position: relative;
+    bottom: 20px;
+}
+
+.img1 {
+    width: 500px;
+    position: relative;
+    left: 50px;
+    height: 100%;
+}
+
+/* Explore */
+
+.explore{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.explore-h2{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.places-america{
+    margin: auto;
+    height: 400px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+    overscroll-behavior-inline: contain;
+}
+
+.places-america::-webkit-scrollbar{
+    display: none;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.all:hover{
+    
+    .all-img{
+        box-shadow: 10px 10px 10px rgb(32, 248, 190);
+    }
+    .all-h3{
+        text-decoration: underline;
+    }
+}
+
+.all-img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.all-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.all-h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin-bottom: 0px;
+
+}
+
+
+/*  contact us*/
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    position: relative;
+    left: 250px;
+}
+
+.contact-us-img {
+    width: 500px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.contact-title {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-p {
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.email-name {
+    margin-bottom: 5px;
+}
+
+.email1 {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#signup , #back{
+    background-color: white;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#signup:hover , #back:hover {
+    box-shadow: 4px 4px #FE448D, -4px -4px #61CCDD;
+    transition: 0.3s;
+}
+
+.thanks{
+    display: none;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.thanks-h2{
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thanks-p{
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+/*  footer*/
+
+.footer {
+    background-color: black;
+    height: 14vh;
+    width: 100dvw;
+    position: relative;
+    
+}
+
+.footer-img {
+    width: 100px;
+    position: relative;
+    left: 700px;
+    cursor: pointer;
+}
+
+.footer-p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 757px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #aboutId{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .navbar{
+        left: 20px;
+        width: 95vw;
+    }
+
+    .logo{
+        font-size: x-large;
+    }
+
+    .toggles{
+        position: relative;
+        right: 50px;
+    }
+
+    .america-about{
+        width: 90vw;
+        left: 30px;
+        top: 100px;
+        flex-direction: column-reverse;
+    }
+
+    .america-info , .america-info-p ,.america-info-h1{
+        width: 80vw;
+
+    }
+    .america-info {
+        position: relative;
+        top: 100px;
+    }
+    .img1 {
+        width: 350px;
+        left: 0px;
+        top: 50px;
+    }
+    
+    .explore-h2{
+        font-size: large;
+    }
+    
+    .places-america{
+        width: 90vw;
+        grid-auto-flow: row;
+       
+        overflow-y: scroll;
+        overscroll-behavior-inline: contain;
+    }
+
+    
+    .all{
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    .all-info{
+        margin-left: 20px;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        width: 90vw;
+        left: 0px;
+    }
+    
+    .contact-us-img{
+        width: 400px;
+    }
+    
+    .contact-info {
+        top: 0px;
+    }
+    
+    .footer-img {
+        left: 37%;
+    }
+    .footer{
+        position: relative;
+        top: 20px;
+    }
+}

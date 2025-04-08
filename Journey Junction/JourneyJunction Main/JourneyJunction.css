@@ -1,0 +1,722 @@
+
+
+
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+   
+}
+
+.home {
+    background-color: black;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    margin: auto;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    background-image: none;
+    
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+}
+
+.navtoggles {
+    margin-left: 25px;
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navtoggles:hover {
+    border-bottom: 3px solid #fff;
+    cursor: pointer;
+   
+
+}
+
+/* login page */
+
+#login-page{
+    
+    display:block;
+    width: 400px;
+    height: 500px;
+    background-color: white ;
+    position:fixed;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    box-shadow:10px 10px 15px black;
+    border-radius: 10px;
+    
+}
+
+#before-login{
+  display: block;
+}
+
+
+#cross-img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.login-h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: black;
+    padding: 5px;
+}
+
+.login-email,.login-password{
+    width: 80%;
+    margin: auto;
+    margin-top:none;
+}
+
+.login-email-h5 , .login-password-h5{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.input-email , .input-password {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border:1px solid black;
+    border-radius: 5px;
+    
+}
+
+.forget-password{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.forget-a{
+    color: blue;
+}
+
+.login-button-div{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login-button{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.login-button:hover{
+    background-color: rgb(28, 26, 26);
+}
+
+.new-h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+}
+
+
+#after-login{
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.after-login-img{
+    width: 120px;
+    height: 100px;   
+    margin-left: 35px;
+    margin-bottom: 50px;
+    transform: scale(2.5);
+}
+
+#after-login-button{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 40px;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+#after-login-button:hover{
+    background-color: rgb(252, 77, 77);
+}
+
+
+
+
+/* introduction of website */
+
+.introduction {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 3oopx;
+
+}
+
+.hero-title {
+    color: white;
+    width: 300px;
+}
+
+.hero-info {
+    color: white;
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+}
+
+.explore {
+    background-color: white;
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.explore:hover {
+    box-shadow: 4px 4px  #FE448D, 4px 4px #61CCDD inset;
+    transition: 0.3s;
+}
+
+.img1 {
+    width: 500px;
+    position: relative;
+    left: 100px;
+    height: 80%;
+    z-index: 1;
+}
+
+
+/* destination of all continent */
+
+.destination {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    width: 1000px;
+}
+
+.asia {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img2 {
+    width: 400px;
+
+}
+
+.asiainfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.asiah2 {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.asiap {
+    font-size: larger;
+    margin-top: 0px;
+}
+
+.asiaa {
+    text-decoration: none;
+    color: black;
+
+}
+
+.asiamore {
+    background-color: white;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.asiamore:hover {
+
+    box-shadow: 3px 3px black;
+    transition: 0.3s;
+}
+
+.asiah2::before {
+    content: "";
+    display: block;
+    background-color: rgb(193, 21, 64);
+    height: 8px;
+    width: 80px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+
+}
+
+.asia:hover {
+    .img2 {
+        box-shadow: 10px 10px rgb(193, 21, 64);
+        transition: 0.3s;
+    }
+
+    .asiah2 {
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+
+    .asiah2::before {
+        transform: scaleX(1);
+
+    }
+
+}
+
+.europe {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+}
+
+.img3 {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.europeinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.europeh2 {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.europep {
+    font-size: larger;
+    margin-top: 0px;
+}
+
+.europea {
+    text-decoration: none;
+    color: black;
+
+}
+
+.europemore {
+    background-color: white;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.europemore:hover {
+    box-shadow: 3px 3px black;
+    transition: 0.3s;
+}
+
+.europeh2::before {
+    content: "";
+    display: block;
+    background-color: rgb(193, 21, 64);
+    height: 8px;
+    width: 80px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+
+}
+
+.europe:hover {
+    .img3 {
+        box-shadow: 10px 10px rgb(193, 21, 64);
+        transition: 0.3s;
+    }
+
+    .europeh2 {
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+
+    .europeh2::before{
+        transform: scaleX(1);
+    }
+
+}
+
+.america {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+
+}
+
+.img4 {
+    width: 400px;
+}
+
+.americainfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.americah2 {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.americap {
+    font-size: larger;
+    margin-top: 0px;
+}
+
+.americaa {
+    text-decoration: none;
+    color: black;
+
+}
+
+.americamore {
+    background-color: white;
+    padding: 10px;
+    width: 110px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.americamore:hover {
+    transition: 0.3s;
+    box-shadow: 3px 3px black;
+}
+
+.americah2::before {
+    content: "";
+    display: block;
+    background-color: rgb(193, 21, 64);
+    height: 8px;
+    width: 80px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+
+}
+
+.america:hover {
+    .img4 {
+        box-shadow: 10px 10px rgb(193, 21, 64);
+        transition: 0.3s;
+    }
+
+    .americah2 {
+        text-decoration: underline;
+        transition: 0.3s;
+    }
+    
+    .americah2::before{
+       transform: scaleX(1);
+    }
+    
+
+}
+
+/*  gallary */
+
+.gallary {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 400px;
+    width: 100vw;
+    background-color: black;
+}
+
+.gallary-h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.gallary-info {
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+    width: 950px;
+}
+
+.liberty-statue {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.liberty-statue-img {
+    width: 250px;
+}
+
+.liberty-statue-h3 {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.liberty-statue-p {
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.liberty-statue:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+
+    .liberty-statue-h3 {
+        text-decoration: underline;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.eiffel-tower,
+.china-wall {
+    width: 250px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.eiffel-tower-img,
+.china-wall-img {
+    width: 250px;
+    height: 260px;
+}
+
+.eiffel-tower-h3,
+.china-wall-h3 {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.eiffel-tower-p,
+.china-wall-p {
+    color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.eiffel-tower:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+
+    .eiffel-tower-h3 {
+        text-decoration: underline;
+    }
+}
+
+.china-wall:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+
+    .china-wall-h3 {
+        text-decoration: underline;
+    }
+}
+
+
+/*  contact us*/
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    position: relative;
+    top: 450px;
+    left: 250px;
+}
+
+.contact-us-img {
+    width: 500px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.contact-title {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-p {
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+.email-name {
+    margin-bottom: 5px;
+}
+
+.email1 {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#signup , #back{
+    background-color: white;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#signup:hover , #back:hover {
+    box-shadow: 4px 4px #FE448D, -4px -4px #61CCDD;
+    transition: 0.3s;
+}
+
+.thanks{
+    display: none;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.thanks-h2{
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thanks-p{
+    font-size: large;
+    margin-bottom: 0px;
+}
+
+/*  footer*/
+
+.footer {
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    top: 500px;
+}
+
+.footer-img {
+    width: 100px;
+    position: relative;
+    left: 700px;
+    cursor: pointer;
+}
+
+.footer-p {
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-top: 5px;
+}
+

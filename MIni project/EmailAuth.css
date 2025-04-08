@@ -1,0 +1,501 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+/* navbar*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+} 
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: red; /* Placeholder for actual logo */
+    
+}
+.logo h3{
+    align-items: center;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.logoimg{
+   align-items: center;
+   justify-content: center;
+    height: 30px;
+}
+
+.nav{
+    display: flex;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav a{
+    color: rgb(96, 95, 95);
+    margin-left: 50px;
+}
+
+.nav a:hover{
+     color: red;
+}
+
+.log{
+    
+
+    position: absolute;
+    right: 30px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.log:hover{
+
+    color: red;
+    background-color: antiquewhite;
+
+}
+
+/* main part*/
+
+.main-header {
+    text-align: center;
+    margin-top: 100px; 
+    height: 40vh;
+} 
+
+.main-header h3{
+    color: rgb(96, 95, 95);
+    size: 30px;
+    padding: 0%;
+    margin: 0;
+}
+.main-header h1 {
+    font-size: 48px; /* Adjust as needed */
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: 300px; /* Adjust as needed */
+    padding: 10px;
+}
+.verify-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.verify-btn:hover{
+    /* color: rgb(255, 0, 0); */
+    background-color: rgb(177, 89, 89);
+}
+
+/* output */
+
+.output{
+    width: 70vw;
+    height: fit-content;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    margin: 50px;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.loding{
+    width: 150px;
+    margin: 50px;
+    margin-left: 450px;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 70vw;
+    margin: 0px;
+    padding: 0%;
+    height: 35vh;
+    background: linear-gradient(to right, rgb(174, 209, 74) 0%, rgb(39, 170, 121) 100%);
+    border-top-left-radius : 15px;
+    border-top-right-radius : 15px;
+}
+
+.upper img{
+    margin-left: 120px;
+}
+
+.upper_info{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+.upper_info h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.upper_info p{
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.lower{
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: .1rem solid gray;
+    border-top: 0;
+    
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 17.4vw;
+    height: 18vh;
+    border:.1rem solid gray ;
+    margin: -1px;
+    
+}
+
+.test h2{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: rgb(136, 136, 243);
+}
+
+.test h3{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #353b96;
+    text-transform: uppercase;
+}
+
+
+
+/* about */
+.about{
+    background-color: white;
+    display: flex;
+    width: 90vw;
+    height: 40vh;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.about-info{
+    width: 30vw;
+    margin-left: 30px;
+}
+
+.about-info h3{
+    color: red;
+    font-size: 30px;
+}
+
+.about-info p{
+    font-size: 20px;
+}
+
+.more-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.more-btn:hover{
+    background-color:  rgb(177, 89, 89);
+}
+.about-cards{
+   
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: 10px;
+}
+ 
+.card img{
+    justify-content: center;
+    margin: 15px;
+    width: 10vw;
+    height: 18vh;
+    
+    
+}
+
+.card img:hover{
+   filter: grayscale(0);
+   transform: scale(1.2);
+
+}
+
+.card h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+/* fotter  */
+
+.fotter {
+    background-color: black;
+    width: 100vw;
+    height: 6vh;
+   
+}
+
+.fotter p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+   
+}
+
+@media only screen and (max-width: 900px){
+
+    .navbar{
+        flex-direction: column;
+    }
+    
+    .nav{
+        margin-left: 0px;
+        margin-right: 10vw;
+    }
+    
+    .log{
+        position: static;
+        width: 85vw;
+        margin: 0%;
+    }
+
+    .main-header {
+        text-align: center;
+        margin-top: 10vh; 
+        height: 90vh;
+    
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12vh;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 0px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    input[type="text"] {
+        width: 84vw;
+        height: 3vh;
+        padding: 10px;
+    }
+
+    .verify-btn {
+     
+        margin-left: 0px;
+        height: 50px;
+        font-size: x-large;
+    }
+
+    /* output */
+
+    .output{
+        width: 80vw;
+        height: fit-content;
+        display: none;
+        margin: 0px;
+        margin-left: 10vw;
+        margin-top: 0px;
+    }
+
+    .loding{
+        width: 40vw;
+        margin: 0px;
+        margin-left: 20vw;
+
+    }
+    
+    .upper{
+        display: flex;
+        flex-direction: column;
+        gap: 0vh;
+        width: 80vw;
+        margin: 0px;
+        padding: 0%;
+        height: 40vh;
+        background: linear-gradient(to right, rgb(174, 209, 74) 0%, rgb(39, 170, 121) 100%);
+        border-top-left-radius : 15px;
+        border-top-right-radius : 15px;
+    }
+
+    .upper img{
+        margin-left: 15vw;
+        width: 40vw;
+    }
+
+    .upper_info{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 0vh;
+        margin: 20px;
+        height: 20vh;
+    }
+    
+    .upper_info h2{
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .upper_info p{
+        margin: 0px;
+        color: white;
+        font-size: 12px;
+    }
+
+    
+.lower{
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: .1rem solid gray;
+    border-top: 0;
+    
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 80vw;
+    height: 18vh;
+    border:0rem solid gray ;
+    border-bottom: 0.1rem solid gray;
+    margin: -1px;
+    
+}
+
+.test h2{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 0px;
+    color: rgb(136, 136, 243);
+}
+
+.test h3{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #353b96;
+    text-transform: uppercase;
+}
+
+.about{
+    background-color: white;
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 10vw;
+    border-radius: 10px;
+}
+
+.about-info{
+    width: 80vw;
+    margin-left: 30px;
+}
+
+.about-info h3{
+    color: red;
+    font-size: 35px;
+}
+
+.about-info p{
+    font-size: 25px;
+}
+
+.more-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 60vw;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.more-btn:hover{
+    background-color:  rgb(177, 89, 89);
+}
+.about-cards{
+   
+    display: none;
+    margin-left: 20px;
+    flex-direction: row;
+}
+
+}

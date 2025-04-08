@@ -1,0 +1,119 @@
+
+
+body , html{
+    width: 100vw;
+    height: fit-content;
+}
+
+.home , .navbar{
+    width: 100vw;
+}
+
+.home{
+    height: 100vh;
+}
+
+.navbar{
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    position: relative;
+    left: 70px;
+    width: 310px;
+}
+
+.navtoggles{
+    margin-left: 10px;
+}
+
+.introduction{
+    flex-direction: column-reverse;
+    left: 0px;
+    margin-left: 50px;
+    top: 200px;
+    width: 350px;
+}
+
+.info{
+    width: 350px;
+}
+
+.img1{
+    width: 300px;
+    left: 0px;
+}
+
+
+.destination{
+    width: 100vw;
+    left: 0px;
+    height: fit-content;
+}
+
+.asia{
+    width: 90vw;
+    flex-direction: column;
+    left: 20px;
+} 
+
+.europe {
+    flex-direction: column-reverse;
+    width: 90vw;
+}
+
+.america {
+    flex-direction: column;
+    width: 90vw;
+}
+
+.img2 ,.img3 , .img4{
+    width: 300px;
+}
+
+.img2{
+    position: relative;
+    left: 50px;
+}
+
+.asiainfo ,.europeinfo , .americainfo{
+    margin-left:50px
+}
+
+.img3{
+    margin-left: 50px;
+}
+
+.img4{
+      margin-left: 50px;
+}
+
+.places{
+    flex-direction: column;
+    width: 90vw;
+}
+
+.liberty-statue ,.eiffel-tower,
+.china-wall {
+    margin-left: 50px;
+}
+
+.contact-us {
+    flex-direction: column;
+    width: 90vw;
+    left: 0px;
+}
+
+.contact-us-img{
+    width: 400px;
+}
+
+.contact-info {
+    top: 10px;
+}
+
+.footer-img {
+    left: 37%;
+}
