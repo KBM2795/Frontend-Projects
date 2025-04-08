@@ -170,7 +170,7 @@ function page5() {
       start: "top 80%", // Animation starts when the top of #contact reaches 80% of the viewport
       end: "bottom 75%", // Ends when the bottom of #contact reaches 20% of the viewport
       scrub: 2, // Smooth scrolling animation
-      markers: true, // Debug markers (remove in production)
+     
     },
   });
 
