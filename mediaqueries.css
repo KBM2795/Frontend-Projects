@@ -1,6 +1,4 @@
-body{
-  scroll-behavior: smooth;
-}
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1400px) {
   #profile {
@@ -11,7 +9,10 @@ body{
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #projects,
+  #certificates,
+  #achievements,
+  #work-experience {
     height: fit-content;
   }
 }
@@ -93,7 +94,6 @@ body{
   .section__pic-container {
     width: auto;
     height: 46vw;
-    
     justify-content: center;
   }
   .section__text__p2 {
@@ -105,5 +105,22 @@ body{
   .text-container {
     text-align: justify;
   }
+  
+  /* Additional mobile styles for new sections */
+  #work-experience,
+  #certificates,
+  #achievements {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .details-container {
+    min-width: unset;
+    width: 100%;
+  }
+  
+  .contact-info-upper-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
 }
-
